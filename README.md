@@ -8,3 +8,8 @@
 brew tap zhaojy0527/redisw
 brew install redisw
 ```
+
+## 配置文件
+安装完成后，redisw 会在用户目录下自动创建配置文件： ~/.config/redisw/redisw_config.yml 。
+你可以在此文件中编辑配置你的 Redis 服务器信息。
+编辑完成后重启 redisw 即可生效
